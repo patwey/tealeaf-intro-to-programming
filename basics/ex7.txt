@@ -1,0 +1,8 @@
+The error message:
+  SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
+    from /usr/local/rvm/rubies/ruby-2.0.0-rc2/bin/irb:16:in `<main>'
+
+... Tells you that:
+- You are using the REPL irb
+- There is a SyntaxError on line 2, where a ')' was placed where a '}' was expected
+- Most likely there is an open '{' somewhere earlier in the code.
