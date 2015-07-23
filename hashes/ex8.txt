@@ -1,0 +1,3 @@
+NoMethodError: undefined method `keys' for Array
+
+B. There's no method called keys for Array objects. (that's for Hash objects)
