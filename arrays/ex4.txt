@@ -1,0 +1,10 @@
+arr = [15, 7, 18, 5, 12, 8, 5, 1]
+
+1. arr.index(5)
+=> 3 (index of the first instance of 5 in the array)
+
+2. arr.index[5]
+=> error (cannot use the index method this way)
+
+3. arr[5]
+=> 8 (object in index 5)
