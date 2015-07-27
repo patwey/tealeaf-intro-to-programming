@@ -1,0 +1,16 @@
+Describe the difference between ! and ? in Ruby. And explain what would happen in the following scenarios:
+
+1. what is != and where should you use it?
+  != stands for 'not equal to,' and can be used to compare two objects
+2. put ! before something, like !user_name
+  Turns an object into the opposite of its boolean equivalent.
+3. put ! after something, like words.uniq!
+  Placing a ! after a method causes it to change its caller.
+  words.uniq! changes the words array permanently.
+4. put ? before something
+
+5. put ? after something
+  Placing a ? after something causes it to make a comparison.
+  number.odd? tests if a number is odd, and returns a boolean.
+6. put !! before something, like !!user_name
+  Turns an object into its boolean equivalent.
